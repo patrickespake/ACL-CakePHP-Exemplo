@@ -1,0 +1,25 @@
+2011-12-15 15:00:11 Error: [MissingActionException] Action GroupsController::build_acl() could not be found.
+#0 /home/patrick/projetos/acl/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /home/patrick/projetos/acl/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(GroupsController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/patrick/projetos/acl/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-15 15:06:06 Error: [MissingActionException] Action AppController::index() could not be found.
+#0 /home/patrick/projetos/acl/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /home/patrick/projetos/acl/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/patrick/projetos/acl/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-15 15:06:50 Error: [MissingActionException] Action AppController::build_acl() could not be found.
+#0 /home/patrick/projetos/acl/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#1 /home/patrick/projetos/acl/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(AppController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/patrick/projetos/acl/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2011-12-15 15:07:11 Error: [MissingControllerException] Controller class BuildAclController could not be found.
+#0 /home/patrick/projetos/acl/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2011-12-15 15:44:29 Error: [NotFoundException] Invalid widget
+#0 [internal function]: WidgetsController->edit()
+#1 /home/patrick/projetos/acl/lib/Cake/Controller/Controller.php(473): ReflectionMethod->invokeArgs(Object(WidgetsController), Array)
+#2 /home/patrick/projetos/acl/lib/Cake/Routing/Dispatcher.php(107): Controller->invokeAction(Object(CakeRequest))
+#3 /home/patrick/projetos/acl/lib/Cake/Routing/Dispatcher.php(89): Dispatcher->_invoke(Object(WidgetsController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/patrick/projetos/acl/app/webroot/index.php(96): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
